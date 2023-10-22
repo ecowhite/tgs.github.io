@@ -1,7 +1,28 @@
 html, body{
-    min-height: 300%;
+    min-height: 1000%;
 }
 section{
-    padding-top: 5rem;
+    padding-top: 6rem;
+}
+
+#blog{
+    background-color: #f5f5f5;
+}
+
+.iconst {
+    padding-top: 1rem;
+}
+
+.colnxz{
+    position: relative;
+    z-index: 1;
+    border-radius: 10px;
+    
+}
+
+.cardzz {
+    position: relative;
+    top: -50px;
+    z-index: 0;
 }
 
