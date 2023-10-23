@@ -26,3 +26,23 @@ section{
     z-index: 0;
 }
 
+#contack{
+    background-color: #f5f5f5;
+}
+
+/* CSS untuk tampilan desktop */
+@media (min-width: 992px) {
+    .desktop-iframe {
+        width: 100%; /* Atur lebar iframe sesuai kebutuhan di tampilan desktop */
+        height: 660px; /* Atur tinggi iframe sesuai kebutuhan di tampilan desktop */
+    }
+}
+
+/* CSS untuk tampilan mobile */
+@media (max-width: 991px) {
+    .desktop-iframe {
+        width: 100%; /* Atur lebar iframe menjadi 100% agar responsif di tampilan mobile */
+        height: auto; /* Atur tinggi menjadi otomatis agar responsif di tampilan mobile */
+    }
+}
+
